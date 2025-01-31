@@ -15,3 +15,17 @@ console.log("Updated Array", quantity); // Log the updated array
 
 let totalQuantity = quantity.reduce((total, amount) => total + amount, 0); // Calculate the total number of all orders
 console.log(`Total Quantity: $${totalQuantity}`); // Log the total order count
+
+
+
+// Task 3: Employee Performance Tracking
+let employee = { // Declare an object employee with properties
+    name: "Harper Violet",
+    role: "Manager",
+    performanceScore: 99,
+    isActive: true
+};
+employee.performanceScore = 100; // Update the performanceScore property
+
+employee.promotionEligible = true; // Add a new property
+console.log(employee); // log the updated employee object
