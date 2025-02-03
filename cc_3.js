@@ -40,3 +40,19 @@ let feedback = [ // Declare an array feedback
 ];
 feedback.push({ customerName: "Gerald", feedbackText: "Horrible", rating: 0}); // Add a new feedback object
 console.log(feedback); // Log the entire feedback list
+
+
+
+// Task 5: Inventory Management System
+let inventory = { // Declare an object inventory
+    itemName: "Camera",
+    stockCount: 200,
+    price: 550
+}
+function calculateTotalValue(stockCount, price) { //Add a method calculateTotalValue
+    return stockCount * price; 
+}
+const stockCount = 200
+const TotalValue = calculateTotalValue(stockCount, price);
+console.log(inventory); // Log inventory details
+console.log(`Total Value: $${TotalValue}`); // Log total value
